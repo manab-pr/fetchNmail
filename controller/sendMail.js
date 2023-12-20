@@ -6,14 +6,14 @@ const SendMail = async (Polakadot,username,Message) => {
     host: "smtp.gmail.com",
     port: 587,
     auth: {
-      user: "manabpwork@gmail.com",
+      user: process.env.EMAIL_FROM,
       pass: process.env.APP_PASSWORD,
     },
   });
 
   const mailOptions = {
-    from: "manabpwork@gmail.com",
-    to: "sekhmehboob7@gmail.com",
+    from: process.env.EMAIL_FROM,
+    to: process.env.EMAIL_TO,
     subject: "New Form Submission",
     text: `
               Polakadot: ${Polakadot}
