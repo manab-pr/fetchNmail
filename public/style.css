@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Courier New', Courier, monospace ; */
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: rgb(250, 0, 162);
+}
+.all{
+  display: flex;
+  justify-content: center;
+}
+.form{
+    display: flex;
+    align-items: center; 
+    background-color: #f0c5f9;
+    height: 83vh;
+    width: 40vw;
+    border-radius: 3rem;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
+    flex-direction: column;
+    padding-top: 4%;
+}
+.form input, .form textarea{
+    width: 100%;
+    padding: 1rem;
+    border: .08rem;
+    border-radius: 2rem;
+    color: rgb(62, 90, 90);
+    font-size: 1rem;
+}
+.my-button {
+    padding: 15px 85px;
+    font-size: 20px;
+    background-color: rgba(255, 0, 0, 0.495);
+    color: #ffffff;
+    border-color: beige;
+    border-radius: 100px;
+    cursor: pointer;
+    padding-left: 20%;
+  }
+  
+  .my-button:hover {
+    background-color: #ff0000;
+  }
+ h1{
+    text-align: center;
+    font-size: 60px;
+    padding-top: 3%;
+  }
+  .twitter-logo-container{
+    display: flex;
+    justify-content: center;
+  }
+h2{
+  text-align: center;
+  font-size: 40px;
+}
+p{
+  padding-top: 8%;
+  padding-left:3%;
+}

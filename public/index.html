@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>POLAKADOT</title>
+</head>
+<body>
+    <h1>FOLLOW US</h1>
+  <div class="twitter-logo-container">
+    <a href="https://twitter.com/YourTwitterUsername" target="_blank">
+      <img src="th.svg" alt="Twitter Logo">
+    </a>
+  </div> 
+    <br><br>
+    <div class="all">
+    <div class="logo">
+      <img src="THE-GOOD-Horror-CLUB.svg" alt="logo">
+    </div>
+
+    <div class="form">
+        <h2>Enter Details</h2>
+        <br>
+        <form action="/submitform" method="post">
+            <label for="Polakadot">Polkadot addrerss*</label>
+            <br>
+            <input type="text" id="Polakadot" placeholder="Insert your Polkadot address" required>
+            <br><br>
+            <label for="username">X Username*</label>
+            <br>
+            <input type="text" id="username" placeholder="@username" required>
+            <br><br>
+            <label for="Message">You can't kill what's already $DED – Still you want to say something ?*</label>
+            <br>
+            <textarea name="message" id="Message" cols="50" rows="5" placeholder="Enter your message" required></textarea>
+            <br><br>
+            <button class="my-button" id="btn">Submit</button>
+            <p>&copy; Secured By Polkadot. All rights reserved.</p>
+        </form>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="index.js"></script>
+    </div>
+  </div>
+    
+</body>
+</html>
